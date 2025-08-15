@@ -1,0 +1,4 @@
+for k = 0 to n – 1  
+    for i = 0 to n – 1  
+        for j = 0 to n – 1  
+            D[i, j] = min(D[i, j], D[i, k] + D[k, j])  

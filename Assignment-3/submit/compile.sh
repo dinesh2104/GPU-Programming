@@ -1,0 +1,1 @@
+nvcc -std=c++17 -arch=sm_75 main.cu -o main.out
